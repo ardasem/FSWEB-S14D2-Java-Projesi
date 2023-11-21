@@ -33,7 +33,7 @@ public class Bedroom extends Room{
 
     @Override
     public String toString() {
-        return "Bedroom{" +
+        return super.toString() + "Bedroom{" +
                 "name='" + name + '\'' +
                 ", bed=" + bed +
                 ", carpet=" + carpet +
